@@ -28,12 +28,19 @@
 			@content;
 		}
 	}
+	@if $breakpoint == desktop1500 {
+		@media only screen and  (max-width: 93em) {
+			//1500px
+			@content;
+		}
+	}
 
 		@if $breakpoint == medium-desktop {
 		@media only screen and  (min-width: 75em) {
 			//1200px
 			@content;
 		}
+
 	}
 	@if $breakpoint == big-desktop {
 		@media only screen and  (min-width: 112.5em) {

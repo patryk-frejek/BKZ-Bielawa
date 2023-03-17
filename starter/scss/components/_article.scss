@@ -120,12 +120,22 @@
 	}
 	
 	&__textbox{
-		font-size: 1.2rem;
+		max-width: 60%;
+	
+		padding-left: 3rem;
 		text-align: left;
 		hyphens: auto;
+		& p{
+				font-size: 1.8rem;
+		}
+		@include respond(desktop1500){
+			max-width: 100%;
+		}
 	}
 	
-
+._5pbw, ._5pbx{
+	display: none;
+}
 
 
 	// @media (min-width: 900px) {
