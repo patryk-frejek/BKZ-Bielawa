@@ -226,6 +226,10 @@
     margin-left: 3rem; }
 
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-image: linear-gradient(to right bottom, rgba(197, 222, 255, 0.3), rgba(49, 133, 252, 0.5)), url(../img/background-body-2.jpg);
   position: relative;
   z-index: 100;
@@ -235,6 +239,12 @@
   height: 90vh;
   text-align: center;
   width: 100%; }
+  .hero__cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center; }
 
 .btn {
   position: relative; }
@@ -281,10 +291,10 @@
     .btn--grey::after {
       background-color: #fff;
       color: #777; }
-  .btn--green {
+  .btn--blue {
     background-color: #3185fc;
     color: #fff; }
-    .btn--green::after {
+    .btn--blue::after {
       background-color: #3185fc;
       color: #777; }
   .btn--animated {
@@ -753,8 +763,7 @@ body {
     letter-spacing: 0.5rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
-    animation-timing-function: ease-out;
-    padding-top: 20rem; }
+    animation-timing-function: ease-out; }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
