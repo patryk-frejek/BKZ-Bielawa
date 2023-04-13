@@ -30,9 +30,10 @@ body {
 	box-sizing: border-box;
 }
 .main-container {
-	background-image: url(../img/background-body-2.jpg);
-	background-size: cover;
-	background-attachment: fixed;
+	// background-image: url(../img/background-body.jpg);
+	// background-size: cover;
+// background-attachment: fixed;
+background-color: $color-grey-light-1;
 	margin: 0 0;
 	margin-top: -3rem;
 	@include respond(tab-port){

@@ -1,0 +1,15 @@
+.hero {
+	background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.3),
+        rgba($color-primary-dark, 0.5)),url(../img/background-body-2.jpg);
+	position: relative;
+	z-index: 100;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	text-align: center;
+	width: 100%;
+	
+}
