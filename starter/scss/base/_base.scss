@@ -10,19 +10,19 @@ html {
 	font-size: 62.5%; //1 rem = 10px
 	scroll-behavior: smooth;
 	@include respond(big-desktop) {
-		font-size: 80%;
+		font-size: 70%;
 	}
 	@include respond(4k){
 		font-size: 120%;
 	}
 	@include respond(tab-land) {
-		font-size: 70%;
+		font-size: 62.5%;
 	}
 	@include respond(tab-port) {
 		font-size: 60%;
 	}
 	@include respond(phone) {
-	font-size: 60%;
+	font-size: 50%;
 }
 }
 
