@@ -12,7 +12,7 @@ html {
 	@include respond(big-desktop) {
 		font-size: 70%;
 	}
-	@include respond(4k){
+	@include respond(4k) {
 		font-size: 120%;
 	}
 	@include respond(tab-land) {
@@ -22,8 +22,8 @@ html {
 		font-size: 60%;
 	}
 	@include respond(phone) {
-	font-size: 50%;
-}
+		font-size: 50%;
+	}
 }
 
 body {
@@ -32,26 +32,19 @@ body {
 .main-container {
 	// background-image: url(../img/background-body.jpg);
 	// background-size: cover;
-// background-attachment: fixed;
-background-color: $color-grey-light-1;
+	// background-attachment: fixed;
+	background-color: $color-grey-light-1;
 	margin: 0 0;
 	margin-top: -3rem;
-	@include respond(tab-port){
-			background-image: none;
+	@include respond(tab-port) {
+		background-image: none;
 	}
-} 
+}
 section {
 	&:not(:last-child) {
 		border-bottom: solid 3px darkgrey;
 	}
 }
-
-
-
-
-
-
-
 
 //////// ZMIANA PASKA NAWIGACJI NA PRZYCISK
 

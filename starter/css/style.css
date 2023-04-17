@@ -677,22 +677,22 @@ html {
   scroll-behavior: smooth; }
   @media only screen and (min-width: 112.5em) {
     html {
-      font-size: 80%; } }
+      font-size: 70%; } }
   @media only screen and (min-width: 112.5em) {
     html {
-      font-size: 80%; } }
+      font-size: 70%; } }
   @media only screen and (min-width: 240.5em) {
     html {
       font-size: 120%; } }
   @media only screen and (max-width: 75em) {
     html {
-      font-size: 70%; } }
+      font-size: 62.5%; } }
   @media only screen and (max-width: 56.25em) {
     html {
       font-size: 60%; } }
   @media only screen and (max-width: 37.5em) {
     html {
-      font-size: 60%; } }
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
