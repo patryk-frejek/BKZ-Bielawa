@@ -192,6 +192,10 @@
       .about__col {
         width: 90%;
         margin: 0 auto; } }
+    @media only screen and (max-width: 37.5em) {
+      .about__col {
+        width: 100%;
+        margin: 0 auto; } }
   .about__img {
     width: 100%;
     border-radius: 0.3rem; }

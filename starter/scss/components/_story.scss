@@ -9,7 +9,9 @@
 	padding-left: 9rem;
 	border-radius: 3px;
 	transform: skewX(-12deg);
-
+	&__video{
+		width: 100px;
+	}	
 	& > * {
 		transform: skewX(12deg);
 	}
